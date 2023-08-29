@@ -1,0 +1,294 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.quotes {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.quote {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 300px;
+    height: 25
+    0px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.offers {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.offers h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.offer {
+    max-width: 400px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 24px;
+    color: #333;
+}
+
+
+.future-plan {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.future-plan h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.future-plan ul {
+    list-style: disc;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+
+.courses {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+.courses h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.course {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.course h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course h4 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.course ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+
+.testimonials {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    max-width: 400px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.education, .job {
+    color: #888;
+}
+
+.teachers {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+.teachers h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.teacher {
+    max-width: 300px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.teacher img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.teacher h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.expertise, .languages {
+    color: #888;
+    margin-bottom: 5px;
+}
+
