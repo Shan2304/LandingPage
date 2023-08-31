@@ -1,4 +1,13 @@
 
+:root{
+    --color01: #FFFFFF;
+    --color02: #F9F9F9;
+    --color03: #F2F2F2;
+    --color04: #CCCCCC;
+    --color05: #888888;
+    --color06: #333333;
+}
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -11,7 +20,7 @@ body {
 
 header {
     background-color: #333;
-    color: white;
+    color: var(--color01);
     padding: 10px;
     text-align: center;
 }
@@ -27,7 +36,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--color01);
 }
 
 
@@ -36,7 +45,7 @@ nav ul li a {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background-color: #f2f2f2;
+    background-color: var(--color03);
 }
 
 .hero-content {
@@ -52,8 +61,8 @@ nav ul li a {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: var(--color06);
+    color: var(--color01);
     text-decoration: none;
     border-radius: 5px;
 }
@@ -63,12 +72,12 @@ nav ul li a {
     display: flex;
     justify-content: space-around;
     padding: 50px;
-    background-color: #f9f9f9;
+    background-color: var(--color02);
 }
 
 .quote {
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color04);
     border-radius: 5px;
     text-align: center;
 }
@@ -77,8 +86,8 @@ nav ul li a {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: var(--color06);
+    color: var(--color01);
 }
 
 
@@ -87,7 +96,7 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 50px;
-    background-color: #fff;
+    background-color: var(--color01);
 }
 
 .feature {
@@ -110,7 +119,7 @@ footer {
 .contact {
     text-align: center;
     padding: 50px;
-    background-color: #f2f2f2;
+    background-color: var(--color03);
 }
 
 .contact h2 {
@@ -129,7 +138,7 @@ footer {
 .contact textarea {
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color04);
     border-radius: 5px;
 }
 
@@ -137,7 +146,7 @@ footer {
 .offers {
     text-align: center;
     padding: 50px;
-    background-color: #f9f9f9;
+    background-color: var(--color02);
 }
 
 .offers h2 {
@@ -149,20 +158,20 @@ footer {
     max-width: 400px;
     margin: 0 auto 30px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color04);
     border-radius: 5px;
 }
 
 .price {
     font-size: 24px;
-    color: #333;
+    color: var(--color06);
 }
 
 
 .future-plan {
     text-align: center;
     padding: 50px;
-    background-color: #fff;
+    background-color: var(--color01);
 }
 
 .future-plan h2 {
@@ -182,7 +191,7 @@ footer {
 .courses {
     text-align: center;
     padding: 50px;
-    background-color: #f2f2f2;
+    background-color: var(--color03);
 }
 
 .courses h2 {
@@ -194,7 +203,7 @@ footer {
     max-width: 600px;
     margin: 0 auto 30px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color04);
     border-radius: 5px;
     text-align: left;
 }
@@ -219,7 +228,7 @@ footer {
 .testimonials {
     text-align: center;
     padding: 50px;
-    background-color: #fff;
+    background-color: var(--color01);
 }
 
 .testimonials h2 {
@@ -231,7 +240,7 @@ footer {
     max-width: 400px;
     margin: 0 auto 30px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color04);
     border-radius: 5px;
     text-align: left;
 }
@@ -252,13 +261,13 @@ footer {
 }
 
 .education, .job {
-    color: #888;
+    color: var(--color05);
 }
 
 .teachers {
     text-align: center;
     padding: 50px;
-    background-color: #f2f2f2;
+    background-color: var(--color03);
 }
 
 .teachers h2 {
@@ -270,7 +279,7 @@ footer {
     max-width: 300px;
     margin: 0 auto 30px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color04);
     border-radius: 5px;
     text-align: center;
 }
@@ -288,7 +297,7 @@ footer {
 }
 
 .expertise, .languages {
-    color: #888;
+    color: var(--color05);
     margin-bottom: 5px;
 }
 
